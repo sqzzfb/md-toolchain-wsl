@@ -14,7 +14,8 @@ A reproducible installation toolkit on WSL2-Debian for:
 wsl --install -d Debian
 ```
 ## 2. Install Toolchain (Linux)
-```cd && \
+```
+cd && \
 rm -rf md-toolchain-wsl && \
 git clone https://github.com/sqzzfb/md-toolchain-wsl.git && \
 cd md-toolchain-wsl/linux && \
