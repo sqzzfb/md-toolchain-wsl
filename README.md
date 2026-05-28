@@ -15,6 +15,6 @@ wsl --install -d Debian
 ```
 ## 2. Install Toolchain (Linux)
 ```git clone https://github.com/yourname/wsl-md-env.git
-cd wsl-md-env/linux
+cd md-toolchain-wsl/linux
 bash install_all.sh
 ```
