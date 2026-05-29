@@ -18,9 +18,12 @@ wsl --install -d Debian
 > ⚠️ Run inside **WSL Debian terminal** (after installation):
 ```bash
 cd && \
+sudo apt update -y && \
+sudo apt install git && \
 rm -rf md-toolchain-wsl && \
 git clone https://github.com/sqzzfb/md-toolchain-wsl.git && \
 cd md-toolchain-wsl/linux && \
 chmod +x install_all.sh && \
-./install_all.sh
+./install_all.sh && \
+source ~/.bashrc
 ```
