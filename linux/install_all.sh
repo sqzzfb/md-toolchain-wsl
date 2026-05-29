@@ -21,7 +21,7 @@ sudo apt update
 sudo apt upgrade -y
 
 sudo apt install -y \
-    gfortran make wget tar git \
+    gfortran make wget tar \
     python3 python3-pip python3-venv python3-numpy python-is-python3 \
     cmake g++ openmpi-bin libopenmpi-dev \
     libfftw3-dev libjpeg-dev libpng-dev
