@@ -19,7 +19,7 @@ wsl --install -d Debian
 ```bash
 cd && \
 sudo apt update -y && \
-sudo apt install git && \
+sudo apt install git -y && \
 rm -rf md-toolchain-wsl && \
 git clone https://github.com/sqzzfb/md-toolchain-wsl.git && \
 cd md-toolchain-wsl/linux && \
